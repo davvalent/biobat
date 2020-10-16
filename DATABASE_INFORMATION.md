@@ -7,6 +7,12 @@ BIOBAT is the ralational database dedicated to the project.
 
 # Modélisation sémantique
 
+## Contexte
+
+BIOBAT est une base de données relationnelle permettant d'effectuer le suivi du paiement des joueurs d'une ligue sportive. Deux options : au match; à la saison.  
+
+## Structure globale de la base de données
+
 Voir diagramme
 
 - JOUEU (joueur)
@@ -14,18 +20,30 @@ Voir diagramme
   - NOM
   - DAT_ENR
 - PARTC (participe)
-  - PAY
+  - PAYM (match payé)
   - CC
 - MATCH
   - DATE
   - SEM
   - PLUI 
 - INSCR
-  - REGU
-  - PAY
+  - REGU (se demander : joueur non régulier pertinent dans inscription? Sinon, joueur dans INSCR signifie regu et champ REGU caduc)
+  - PAYS (saison payée)
 - SAIS
   - AN
-  - F_S (frais pour la saison)
-  - F_M (frais pour un match)
+  - FRS (frais pour la saison)
+  - FRM (frais pour un match)
   
-Il découle du diagramme 
+## Structure des tables
+  
+Il découle du diagramme
+
+## Contraintes aditionnelles
+
+- Le maximum payable par les joueurs non réguliers est égal aux frais pour la saison.
+
+# Import
+
+À partir d'une transformation des tableaurs BTCN*
+
+Pour se rappeler de BTNC, caractères - 1.
