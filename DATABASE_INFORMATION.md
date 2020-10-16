@@ -13,8 +13,7 @@ BIOBAT est une base de données relationnelle permettant d'effectuer le suivi du
 ## Structure globale de la base de données
 Voir diagramme
 
-###
-Brouillon E-R
+### Brouillon E-R
 
 - JOUEU (joueur)
   - ID
