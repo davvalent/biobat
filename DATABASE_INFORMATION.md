@@ -1,18 +1,16 @@
 # BIOBAT
-
 BIOBAT is the ralational database dedicated to the project.
 
 ## Table of content
 À venir
 
 # Modélisation sémantique
-
 ## Contexte
-
-BIOBAT est une base de données relationnelle permettant d'effectuer le suivi du paiement des joueurs d'une ligue sportive. Deux options : au match; à la saison.  
+BIOBAT est une base de données relationnelle permettant d'effectuer le suivi du paiement des joueurs d'une ligue garage (idéalement de balle-molle) dont les participants ont deux options de paiement :
+1. Montant par saison
+1. Montant par match.
 
 ## Structure globale de la base de données
-
 Voir diagramme
 
 - JOUEU (joueur)
@@ -33,10 +31,13 @@ Voir diagramme
   - AN
   - FRS (frais pour la saison)
   - FRM (frais pour un match)
-  
+
+Il découle du diagramme 
+
 ## Structure des tables
-  
-Il découle du diagramme
+### Table JOUEU
+lOREM IPSUM.
+
 
 ## Contraintes aditionnelles
 
