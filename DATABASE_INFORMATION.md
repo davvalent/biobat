@@ -13,10 +13,14 @@ BIOBAT est une base de données relationnelle permettant d'effectuer le suivi du
 ## Structure globale de la base de données
 Voir diagramme
 
+###
+Brouillon E-R
+
 - JOUEU (joueur)
   - ID
   - NOM
   - DAT_ENR
+  - GENR (pour afficher joueur ou joueuse par exemple)
 - PARTC (participe)
   - PAYM (match payé)
   - MODM (modalitéde paiement pour le match : argent, virement)
