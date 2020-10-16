@@ -1,4 +1,4 @@
-# BIOBAT
+# BIOBAT - Dictionnaires de données
 BIOBAT is the ralational database dedicated to the project.
 
 ## Table of content
@@ -19,6 +19,7 @@ Voir diagramme
   - DAT_ENR
 - PARTC (participe)
   - PAYM (match payé)
+  - MODM (modalitéde paiement pour le match : argent, virement)
   - CC
 - MATCH
   - DATE
@@ -27,6 +28,7 @@ Voir diagramme
 - INSCR
   - REGU (se demander : joueur non régulier pertinent dans inscription? Sinon, joueur dans INSCR signifie regu et champ REGU caduc)
   - PAYS (saison payée)
+  - MODS (modalitéde paiement pour la saison : argent, virement)
 - SAIS
   - AN
   - FRS (frais pour la saison)
